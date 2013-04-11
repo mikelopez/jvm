@@ -21,7 +21,7 @@ public class TestClient extends BaseAuth {
   private static final ManagedObjectReference SVC_INST_REF = new ManagedObjectReference();
   
   private static void connect() 
-      throws Exception {
+    throws Exception {
       // Declare a host name verifier that will automatically enable
       // // the connection. The host name verifier is invoked during
       // // the SSL handshake.
