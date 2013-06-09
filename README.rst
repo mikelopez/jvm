@@ -7,18 +7,24 @@ use the build.sh script to see env setup and compilation examples. It will also 
 and package it into vim25.jar to use throughout your applications
 
 Compile command that works for me (Compiling from same directory as your source files):
+
 .. code-block:: bash
+
   $ ${JAVAHOME}/bin/javac -classpath ${PWD}:${SAMPLEJARDIR}/vim25.jar TestClient.java
 
 Running it:
+
 .. code-block:: bash
+
   $ ${JAVAHOME}bin/java -classpath ${PWD}:${SAMPLEJARDIR}/vim25.jar TestClient
 
 
 Environmentals
 -----------------------------------------------
 
+
 .. code-block:: bash
+
   $ export JAVAHOME=/Library/Java/Home
   $ export VMWARE_SDK=/Users/mikelopez/Desktop/VMWare-Web-SDK/vsphere-ws/
   $ export SAMPLEDIR=/Users/mikelopez/Desktop/VMWare-Web-SDK/vsphere-ws/java/JAXWS/samples
